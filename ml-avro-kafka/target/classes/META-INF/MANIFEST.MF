@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Class-Path: . ml-store-api-0.0.1-SNAPSHOT.jar kafka_2.10-0.8.2.1.jar m
+ etrics-core-2.2.0.jar scala-library-2.10.4.jar kafka-clients-0.8.2.1.
+ jar lz4-1.2.0.jar zookeeper-3.4.6.jar slf4j-log4j12-1.6.1.jar log4j-1
+ .2.16.jar jline-0.9.94.jar junit-3.8.1.jar netty-3.7.0.Final.jar jopt
+ -simple-3.2.jar zkclient-0.3.jar avro-1.7.7.jar jackson-core-asl-1.9.
+ 13.jar jackson-mapper-asl-1.9.13.jar paranamer-2.3.jar snappy-java-1.
+ 0.5.jar commons-compress-1.4.1.jar xz-1.0.jar slf4j-api-1.6.4.jar com
+ mons-codec-1.10.jar IKAnalyzer-2012_u6.jar lucene-core-3.6.0.jar
+Build-Jdk: 1.7.0_80
+Built-By: zhangyong
+Created-By: Maven Integration for Eclipse
+Main-Class: com.bigdata.ml.kafka.kafkaProducer
+

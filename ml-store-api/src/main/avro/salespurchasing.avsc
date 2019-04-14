@@ -1,0 +1,22 @@
+{
+   "namespace":"com.bigdata.ml.entity",
+   "type":"record",
+   "name":"SalesPurchasing",
+   "fields":[
+          {"name":"product_id","type":"string","default":"null"},
+          {"name":"product_name","type":"string","default":"null"},
+          {"name":"price","type":"string","default":"null"},
+          {"name":"category","type":"string","default":"null"},
+          {"name":"product_info","type":"string","default":"null"},
+          {"name":"product_infoik","type":"string","default":"null"},
+          {"name":"product_contacts","type":"string","default":"null"},
+          {"name":"contact_phone","type":"string","default":"null"},
+          {"name":"company_name","type":"string","default":"null"},
+          {"name":"address","type":"string","default":"null"},
+          {"name":"specification","type":"string","default":"null"},
+          {"name":"quantity","type":"string","default":"null"},
+          {"name":"packing","type":"string","default":"null"},
+          {"name":"creator_user","type":"string","default":"null"},
+          {"name":"direction","type":"string","default":"null"}     
+    ]
+}

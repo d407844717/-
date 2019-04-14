@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.bigdata.service</groupId>
+    <artifactId>ml-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  
+  <groupId>com.bigdata.service</groupId>
+  <artifactId>ml-extract-facade</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   <properties>
+		<spring-data-mongodb.version>1.8.4.RELEASE</spring-data-mongodb.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+			<version>${spring-data-mongodb.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.8</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+			<version>1.9.12</version>
+			<scope>provided</scope>
+		</dependency>
+		 <dependency>
+           <groupId>com.yonyou.bd</groupId>
+           <artifactId>bigdata-hadoop-jar</artifactId>
+            <version>1.1-SNAPSHOT</version>
+           <type>pom</type>
+    </dependency>
+       <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-hadoop</artifactId>
+        <version>2.4.0.RELEASE</version>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+  		   <groupId>IKAnalyzer</groupId>
+  		   <artifactId>IKAnalyzer</artifactId>
+  	    	<version>2012_u6</version>
+  	    	<scope>provided</scope>
+  	    	<!-- <scope>system</scope>
+  	    	<systemPath>${project.basedir}/lib/IKAnalyzer2012_u6.jar</systemPath> -->
+  	    </dependency>
+     	<dependency>
+	       <groupId>org.apache.lucene</groupId>
+	       <artifactId>lucene-core</artifactId>
+	       <version>3.6.0</version>
+	       <scope>provided</scope>
+        </dependency>
+	</dependencies>
+</project>
